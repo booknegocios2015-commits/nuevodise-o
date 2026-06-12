@@ -196,11 +196,11 @@ function Hero() {
         </div>
 
         <div className="hidden lg:block">
-          <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-100 aspect-[4/3]">
+          <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-100 aspect-[3/4]">
             <img
               src={heroImage}
               alt="Técnico de gasfitería certificado en Talca"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
             />
           </div>
         </div>
