@@ -161,7 +161,7 @@ function Hero() {
       style={{ backgroundColor: CONFIG.colors.bg }}
     >
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-        <div>
+        <div className="order-2 lg:order-1">
           <span
             className="inline-block rounded-full px-4 py-1.5 text-sm font-medium mb-5"
             style={{
@@ -195,8 +195,8 @@ function Hero() {
           </a>
         </div>
 
-        <div className="hidden lg:block">
-          <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-100 aspect-[3/4]">
+        <div className="order-1 lg:order-2">
+          <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-100 aspect-[4/3] lg:aspect-[3/4]">
             <img
               src={heroImage}
               alt="Técnico de gasfitería certificado en Talca"
